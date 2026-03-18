@@ -2,7 +2,7 @@
 title: "Reproducibility when data are confidential"
 author: 
   - "Lars Vilhuber"
-date: 2025-01-01
+date: 2026-03-18
 ---
 
 
@@ -79,15 +79,35 @@ my coding AI suggested that I add
 ```{r, child=c(here::here('01-goal.md'))}
 ```
 
-```{r, child=c(here::here('02-readme.md'))}
-```
-
-```{r, child=c(here::here('12-environments-in-stata.md'))} 
+```{r, child=c(here::here('02-what-is-confidential-data.md'))}
 ```
 
 
-```{r, child=c(here::here('03-secrets-in-code.md'))}
+```{r, child=c(here::here('interactive-exercise-1.md'))}
 ```
+
+```{r, child=c(here::here('04-provenance.md'))}
+```
+
+```{r, child=c(here::here('interactive-exercise-2.md'))}
+```
+
+
+
+```{r, child=c(here::here('05-readme.md'))}
+```
+
+
+
+```{r, child=c(here::here('06-secrets-in-code.md'))}
+```
+
+
+```{r, child=c(here::here('16-survey-extract.md'))}
+```
+
+
+
 
 ```{r, child=c(here::here('07-wrapping-up.md'))} 
 ```
@@ -95,7 +115,7 @@ my coding AI suggested that I add
 # Appendix
 
 
-```{r, child=c(here::here('02-provenance.md'))}
+```{r, child=c(here::here('12-environments-in-stata.md'))} 
 ```
 
 ```{r, child=c(here::here('99-links.md'))}

@@ -56,3 +56,9 @@
   color: white;
 }
 
+/* color for confidential code - reveal.js */
+.red-code .hljs,
+.red-code code,
+.reveal .red-code pre code {
+  color: #8B4513 !important;
+}

@@ -29,48 +29,11 @@
 
 ## Can we re-publish the file?
 
-# Downloading via code
 
-## Easiest:
-
-**Stata**
-
-```{.stata}
-use "$URL" , clear
-```
-
-## Why not?
-
-- will it be there in two months? in 6 years?
-- what if the internet connection is down?
-
-## Easy:
-
-**Stata**
-
-```{.stata}
-global URL "https://www.cepii.fr/distance/dist_cepii.dta"
-copy "$URL" (outputfile), replace
-```
-
-**R**
-
-```{.r}
-download.file(url="$URL",destfile="(outputfile)")
-```
-
-## We will get to even better methods a bit later
-
-# Creating a README
+# Recording information
 
 - [Template README](https://social-science-data-editors.github.io/template_README/template-README.html)
   - Cite both dataset and working paper
   - Add data URL and time accessed (can you think of a way to automate this?)
   - Add a link to license (also: download and store the license)
 
-
-## Link
-
-Step 1: [Stata](https://drive.google.com/file/d/10IH2TCnckH8TLeZ0P6cJlVgpyrqC4Q3L/view?usp=sharing), [R](https://drive.google.com/file/d/10_pxEathhgIhxdYl2YFZVhv3oaPgJt2u/view?usp=drive_link) [^fallback1]
-
-[^fallback1]: [🔒Tag: stage1](https://github.com/codedthinking/day1/tree/stage1)
